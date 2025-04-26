@@ -82,3 +82,34 @@
 
 // 6. Write a function that computes factorial of a number.
 
+// function factorial(num) {
+//     if (num < 0) {
+//         return "factorial is not defined for negative no "
+//     }
+//     let result = 1
+//     for (i = 1; i <= num; i++) {
+//         result *= i
+//     }
+//     return result
+// }
+
+// let no = +prompt("Enter no take factorial")
+// let result = factorial(no)
+// document.write(`Factorial of a number is ${result}`)
+
+
+// 7. Write a function that take start and end number as inputs
+// & display counting in your browser.
+
+// function counting(num1, num2) {
+//     document.write(`The counting from ${num1} & ${num2} is `)
+    
+//     for (i = num1; i <= num2; i++) {
+//         document.write( i," ")
+//     }
+    
+// }
+
+// let num1 = parseFloat(+prompt("Enter starting number "))
+// let num2 = parseFloat(+prompt("Enter ending number "))
+// let result = counting(num1,num2)
